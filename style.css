@@ -28,3 +28,17 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body {
   font-family: 'Nunito', sans-serif;
 }
+
+/* nav styling  */
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
