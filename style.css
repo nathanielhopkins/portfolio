@@ -19,6 +19,14 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
 /* main content styles  */
 
 * {
@@ -27,6 +35,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 body {
   font-family: 'Nunito', sans-serif;
+  text-align: center;
+  background-color:rgb(234, 231, 243);
 }
 
 /* nav styling  */
@@ -34,11 +44,70 @@ body {
 .main-nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: rgb(234, 231, 243);
+  padding: 1% 0;
+  line-height: 100%;
+  height: auto;
+  width: 100%;
+  padding: 0 15%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.main-nav p {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 40px 0;
+  /* margin: 0 10%; */
+  -webkit-text-fill-color: rgb(58, 0, 0);
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: rgb(17, 9, 133);
+}
+
+.nav-divide {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 4px solid black;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 5px;
 }
 
 .nav-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  /* margin-right: 10%; */
+}
+
+.nav-links > li {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+main {
+  padding: 100px 20px 20px 20px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media screen and (max-width: 720px) {
+  .main-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .nav-links {
+    margin: 20px 0;
+    justify-content: space-evenly;
+  }
+
+  main {
+    padding: 200px 0;
+  }
 }
