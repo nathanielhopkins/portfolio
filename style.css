@@ -103,10 +103,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 5% 10%;
+  margin-bottom: 60px;
 }
 
 header h3 {
   font-size: 36px;
+  color: rgb(83, 65, 129);
   text-shadow: 1.5px 1px 1px rgb(65, 52, 105);
 }
 
@@ -125,6 +127,38 @@ header img {
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgb(65, 52, 105);
 }
+
+/* Bio section styling */
+
+.bio {
+  margin: 10px;
+}
+
+.bio h3 {
+  font-size: 26px;
+  color:rgb(83, 65, 129);
+  text-shadow: .5px 1px 1px rgb(65, 52, 105);
+}
+
+.bio hr {
+  width: 120px;
+  border: 0;
+  border-bottom: 3px solid rgb(83, 65, 129);
+}
+
+.bio-content {
+  text-align: left;
+  margin: 30px 5%;
+  font-size: 20px;
+}
+
+.bio-content p {
+  margin-bottom: 20px;
+}
+
+
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
