@@ -132,6 +132,7 @@ header img {
   .main-nav {
     flex-direction: column;
     justify-content: space-evenly;
+    padding-bottom: 5px;
   }
 
   .main-nav p {
@@ -145,7 +146,7 @@ header img {
   }
 
   main {
-    padding: 180px 0;
+    padding: 130px 0;
   }
 
   header {
