@@ -57,7 +57,7 @@ body {
 }
 
 .main-nav p {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   padding: 20px 0;
   line-height: 130%;
@@ -72,7 +72,7 @@ body {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 4px solid black;
+  border-top: 3px solid rgba(0, 0, 0, 0.897);
   margin-left: 5%;
   margin-right: 5%;
   border-radius: 5px;
@@ -100,7 +100,7 @@ main {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 5% 10%;
 }
@@ -134,8 +134,13 @@ header img {
     justify-content: space-evenly;
   }
 
+  .main-nav p {
+    font-size: 34px;
+    padding: 10px 0;
+  }
+
   .nav-links {
-    margin: 20px 0;
+    margin: 10px 0;
     justify-content: space-evenly;
   }
 
