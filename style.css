@@ -110,6 +110,7 @@ header h3 {
   font-size: 36px;
   color: rgb(83, 65, 129);
   text-shadow: 1.5px 1px 1px rgb(65, 52, 105);
+  margin-right: 100px;
 }
 
 .header-divide {
