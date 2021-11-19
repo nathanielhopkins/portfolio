@@ -254,9 +254,8 @@ header img {
 
   .project-item {
     height: auto;
-    width: 100%;
+    width: 90%;
     position: relative;
-    margin: 30px 20px;
   }
 
   .project-img {
