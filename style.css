@@ -256,6 +256,7 @@ header img {
     height: auto;
     width: 100%;
     position: relative;
+    margin: 30px 20px;
   }
 
   .project-img {
