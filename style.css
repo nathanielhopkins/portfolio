@@ -134,7 +134,7 @@ header img {
 }
 
 .header-summary {
-  width: 40%;
+  width: 60%;
   text-align: left;
 }
 
@@ -241,7 +241,7 @@ header img {
   }
 
   header {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   header img {
@@ -258,6 +258,10 @@ header img {
   .header-divide {
     display: block;
   }
+
+  .header-summary{
+    width: 100%;
+    text-align: center;}
 
   .projects-list {
     flex-direction: column;
